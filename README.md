@@ -1,4 +1,4 @@
-Claro, aquí tienes el README mejorado completo:
+
 
 # ViandaLibre Web
 
