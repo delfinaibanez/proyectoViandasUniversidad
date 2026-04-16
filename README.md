@@ -17,14 +17,14 @@ Para cumplir con el objetivo de orden, el proyecto se organiza de la siguiente m
 
 viandalibre_web/
 ├── app/
-│   ├── controladores/    # (C) Lógica de control y manejo de peticiones
-│   ├── models/           # (M) Conexión a la DB y gestión de datos
-│   └── views/            # (V) Archivos HTML y presentación visual
-├── config/               # Configuración de base de datos (db.php)
-├── public/               # Único punto de acceso público (index.php, CSS, JS)
-├── includes/             # Componentes globales (header, footer, auth)
-├── sql/                  # Scripts de creación de tablas y base de datos
-└── .gitignore            # Archivos excluidos de Git
+│   ├── controladores/        # Controladores del sistema
+│   ├── models/               # Modelos de datos
+│   └── views/                # Vistas HTML
+├── config/                   # Configuración (DB)
+├── public/                   # Punto de entrada público
+├── includes/                 # Componentes transversales
+├── sql/                      # Scripts SQL
+└── .gitignore
 
 > Nota: el proyecto actual usa controladores como carpeta de controladores.
 
